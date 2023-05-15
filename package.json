@@ -1,0 +1,30 @@
+{
+  "name": "blogwebsite",
+  "version": "1.0.0",
+  "description": "This is a blog website in nodejs using expressjs and mongodb",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "gautam",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.1.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdkkg/blogwebsite.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pdkkg/blogwebsite/issues"
+  },
+  "homepage": "https://github.com/pdkkg/blogwebsite#readme"
+}
